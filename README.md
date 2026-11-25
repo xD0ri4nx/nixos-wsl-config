@@ -1,4 +1,4 @@
-# nixos-config
+# nixos-wsl-config
 
 Single-file declarative NixOS-WSL configuration (`configuration.nix`) set up for terminal-native agentic coding, reliable WSL networking, and Flatpak desktop app support.
 
@@ -17,7 +17,7 @@ Single-file declarative NixOS-WSL configuration (`configuration.nix`) set up for
 
 ## Repository Layout
 
-This repository lives at `~/nixos-config` and is symlinked directly to `/etc/nixos/configuration.nix` so edits and Git operations do not require `sudo`:
+This repository lives at `~/nixos-wsl-config` and is symlinked directly to `/etc/nixos/configuration.nix` so edits and Git operations do not require `sudo`:
 
 ```text
-/etc/nixos/configuration.nix -> /home/nixos/nixos-config/configuration.nix
+/etc/nixos/configuration.nix -> /home/nixos/nixos-wsl-config/configuration.nix
