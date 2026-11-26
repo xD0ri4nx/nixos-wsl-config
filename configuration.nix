@@ -44,8 +44,15 @@ nix.settings = {
   }; 
 nixpkgs.config.allowUnfree = true;
 
+programs.nix-ld.enable = true;
+
+wsl.interop.includePath = false;
+
 # programs
 environment.systemPackages = with pkgs; [
+    neovim
+    wget
+    micro
     git
     tmux
     gh
