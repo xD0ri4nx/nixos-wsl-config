@@ -6,7 +6,6 @@ Single-file declarative NixOS-WSL configuration (`configuration.nix`) set up for
 ## What's Included
 
 - **Agentic Coding CLIs** (via [`numtide/llm-agents.nix`](https://github.com/numtide/llm-agents.nix) + `cache.numtide.com` binary cache):
-  - `claude-code`
   - `opencode2` / `antigravity-cli` (plus commented slots for `claude-code` and `codex`)
 - **Core CLI & Dev Tools:** `neovim`, `micro`, `git`, `gh`, `tmux`, `wget`, `fastfetch`, `cmatrix`, `cbonsai`
 - **WSL2 Reliability & Interop:**
@@ -79,6 +78,10 @@ git add configuration.nix README.md
 git commit -m "Update configuration"
 git push
 
+```
 
+
+
+```
 
 ```
